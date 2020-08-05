@@ -20,15 +20,18 @@
     .header {
         width: 150px; 
     }
-    .right {
+
+    .left{
+        float: none;
         width: 150px;
     }
+
+    .right {
+        float: none;
+        width: 150px;
+    }
+
     .footer {
         width: 150px;
-    }
-    .clearfix::after { 
-        content: ''; 
-        display: block; 
-        clear: both;
-    }
+    }    
 }
