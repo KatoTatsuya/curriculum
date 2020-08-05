@@ -1,0 +1,39 @@
+.wrapper {
+    width: 400px;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+span {
+    color: white;
+}
+.header {
+    background-color: #16213E;
+    height: 100px;
+}
+.main {
+    height: 250px;
+    background-color:red;
+}
+.left{
+    background-color: #80bfa8; 
+    width: 150px;
+    height: 100%;
+    float: left;
+}
+.right{
+    background-color: #8c2727;
+    width: 250px;
+    height: 100%;
+    float: right;
+}
+.footer {
+    background-color: #d98d30;
+    height:100px;
+}
